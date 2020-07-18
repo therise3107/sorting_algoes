@@ -6,7 +6,8 @@
 #define SORTING_INCLUDE_SORTING_QUICK_SORT_H_
 
 #include <vector>
-using namespace std;
+
+using std::vector;
 
 void quick_sort(vector<int>& arr, int start, int end);
 

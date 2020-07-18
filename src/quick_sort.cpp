@@ -34,11 +34,11 @@ void partition(vector<int>& arr, int start, int end, int &i, int &j) {
 
   while (p_index <= end) {
     if (arr[p_index] < mid)
-      swap(arr[p_index++], arr[start++]);
+      std::swap(arr[p_index++], arr[start++]);
     else if (arr[p_index] == mid)
       p_index++;
     else
-      swap(arr[p_index], arr[end--]);
+      std::swap(arr[p_index], arr[end--]);
   }
 
   i = start - 1;

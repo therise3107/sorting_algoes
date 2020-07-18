@@ -7,7 +7,7 @@
 
 #include <vector>
 
-using namespace std;
+using std::vector;
 
 vector<int> merge_sort(vector<int> arr);
 

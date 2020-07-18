@@ -13,3 +13,13 @@ void display_array(vector<int> arr) {
 
   cout << "]" << endl;
 }
+
+vector<int> gen_random_arr(long size) {
+  vector<int> arr;
+
+  for (auto i = 0; i < size; ++i) {
+	arr.push_back(rand() % 1000);
+  }
+
+  return arr;
+}

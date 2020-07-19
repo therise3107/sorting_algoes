@@ -10,7 +10,7 @@
 
 using namespace std;
 
-void display_array(vector<int> arr);
+void display_array(vector<int> const& arr);
 vector<int> gen_random_arr(long size);
 
 #endif //SORTING_SRC_TEST_UTILS_H_

@@ -4,11 +4,11 @@
 
 #include "test_utils.h"
 
-void display_array(vector<int> arr) {
+void display_array(vector<int> const& arr) {
   cout << "[ ";
 
-  for (auto i = 0; i < arr.size(); ++i) {
-	cout << arr[i] << ", ";
+  for (int i : arr) {
+	cout << i << ", ";
   }
 
   cout << "]" << endl;
